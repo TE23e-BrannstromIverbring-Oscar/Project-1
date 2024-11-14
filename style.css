@@ -1,0 +1,36 @@
+/* Oscar Brännström Iverbring TE23e*/
+
+h1{
+    justify-content: center;
+}
+
+.mellan{
+    display: flex;
+    border: 2px solid #D6001C;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 530px;
+    width: 100%;
+}
+
+.vänster{
+    display:flex;
+    border: 2px solid #DB9360;
+}
+
+.mitten{
+    border: 2px solid #DB9360;
+}
+
+.höger{
+    display: flex;
+    border: 2px solid #DB9360;
+}
+
+
+.sidfot{
+    border: 2px solid #DB9360;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+}

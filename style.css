@@ -1,36 +1,78 @@
 /* Oscar Brännström Iverbring TE23e*/
 
-h1{
-    justify-content: center;
-}
-
-.mellan{
-    display: flex;
-    border: 2px solid #D6001C;
-    margin-top: 5px;
-    border-radius: 5px;
-    height: 530px;
-    width: 100%;
-}
-
-.vänster{
-    display:flex;
+.header{
     border: 2px solid #DB9360;
-}
-
-.mitten{
-    border: 2px solid #DB9360;
-}
-
-.höger{
-    display: flex;
-    border: 2px solid #DB9360;
-}
-
-
-.sidfot{
-    border: 2px solid #DB9360;
+    background-color: #DB9360;
     border-radius: 5px;
     margin-top: 5px;
     text-align: center;
 }
+
+.links{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.mellan{
+    display: flex;
+    border: 2px solid #DB9360;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 515px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.vänster{
+    display:flex;
+    border: 2px solid #DB9360;
+    background-color: #DB9360;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.mitten{
+    display: flex;
+    border: 2px solid #DB9360;
+    background-color: #DB9360;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.höger{
+    display: flex;
+    border: 2px solid #DB9360;
+    background-color: #DB9360;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+
+.sidfot{
+    border: 2px solid #DB9360;
+    background-color: #DB9360;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

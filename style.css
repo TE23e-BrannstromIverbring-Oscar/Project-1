@@ -8,15 +8,10 @@
     text-align: center;
 }
 
-.links{
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-}
-
 .mellan{
     display: flex;
     border: 2px solid #DB9360;
+    background-color: rgb(219, 147, 96, 0.4);
     margin-top: 5px;
     border-radius: 5px;
     height: 515px;
